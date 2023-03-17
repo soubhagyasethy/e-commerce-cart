@@ -1,10 +1,16 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>E-Commerece Cart</h1>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route />
+      </Routes>
+    </>
   );
 }
 
